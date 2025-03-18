@@ -1,4 +1,7 @@
-# Algorithm Simulator Documentation
+# Project Documentation:Algorithm Simulator
+
+Start Date: 25th Feb 2025
+End Date: 5th Mar 2025
 
 ## Project Overview
 The **Algorithm Simulator** is a web-based tool designed to help users visualize and understand various searching and sorting algorithms. It allows users to input custom arrays, generate random arrays, and run different algorithms with step-by-step visualizations.
@@ -8,13 +11,6 @@ The **Algorithm Simulator** is a web-based tool designed to help users visualize
 - HTML: Structure of the web application
 - CSS: Styling and animations
 - JavaScript: Algorithm implementations and interactivity
-```
-
-## Team Information
-```plaintext
-- Internship: Samnayastra
-- Team Size: 6 Members
-- Development Duration: 1 week (March 10 - March 18)
 ```
 
 ## Features
