@@ -1,63 +1,83 @@
-# Project Documentation:Algorithm Simulator
+# Algorithm Simulator Documentation
 
-Start Date: 25th Feb 2025
-End Date: 5th Mar 2025
+- **Start Date:** 10th March 2025
+- **End Date:** 18th March 2025
 
-## Project Overview
-The **Algorithm Simulator** is a web-based tool designed to help users visualize and understand various searching and sorting algorithms. It allows users to input custom arrays, generate random arrays, and run different algorithms with step-by-step visualizations.
+## ✨ Developed by:
 
-## Technologies Used
-```plaintext
-- HTML: Structure of the web application
-- CSS: Styling and animations
-- JavaScript: Algorithm implementations and interactivity
+- **Devang Sandeep Raut** - [rautdevang43@gmail.com](mailto:rautdevang43@gmail.com)
+- **Rizwana Perween** - [dev.rizwana.perween01@gmail.com](mailto:dev.rizwana.perween01@gmail.com)
+- **Omkar Somnath Jagdhane** - [ojagdhane1@gmail.com](mailto:ojagdhane1@gmail.com)
+- **Sukshma Arun Chavhan** - [sukshmachavan2005@gmail.com](mailto:sukshmachavan2005@gmail.com)
+- **Kolage Aditya** - [kolageaditya41@gmail.com](mailto:kolageaditya41@gmail.com)
+- **Saurabh Ramdas Madake** - [saurabhmadake013@gmail.com](mailto:ksaurabhmadake013@gmail.com)
+
+## 1. Project Overview
+
+The **Algorithm Simulator** is a web-based tool designed to help users visualize and understand various algorithms through interactive simulations. Built using **HTML, CSS, and JavaScript**, this project provides a step-by-step explanation of algorithms to enhance learning.
+
+## 2. Technologies Used
+
+- **HTML**: Structuring the simulator interface
+- **CSS**: Styling and responsiveness
+- **JavaScript**: Implementing algorithm logic and visualization
+
+## 3. Features
+
+- Supports multiple algorithms (e.g., sorting and searching algorithms)
+- Interactive step-by-step visualization
+- Custom input options for user-defined arrays
+- User-friendly UI with smooth animations
+
+## 4. Project Structure
+
+```
+|-- algorithm-simulator
+    |-- index.html (Main interface)
+    |-- style.css (Styling)
+    |-- script.js (Algorithm logic and visualization)
 ```
 
-## Features
-```plaintext
-1. Algorithm Selection
-   - Users can choose from different algorithms (e.g., Linear Search, Binary Search, Sorting algorithms).
-2. Custom & Random Arrays
-   - Users can input a custom array or generate a random array.
-3. Algorithm Execution & Visualization
-   - Step-by-step execution with graphical representation.
-4. Algorithm Explanation
-   - Provides detailed descriptions and steps of the selected algorithm.
-5. Interactive Buttons
-   - "Run Algorithm", "Reset", "Show Algorithm Info", etc.
-6. Themed UI Design
-   - Dark purple-themed UI with animations and hover effects.
-```
+## 5. Functional Requirements
 
-## Folder Structure
-```plaintext
-/algorithm-simulator
-│── index.html          # Main HTML file
-│── style.css           # Styling and animations
-│── script.js           # JavaScript logic for algorithms
-│── assets/             # Images, icons, and other assets
-└── README.md           # Documentation
-```
+- **Algorithm Selection:**
+  - Users can choose from different algorithms for simulation.
+  - Interactive visualization of algorithm steps.
 
-## How It Works
-```plaintext
-1. Select the algorithm type (Searching/Sorting).
-2. Choose the specific algorithm from the dropdown menu.
-3. Enter a number to search (for searching algorithms) or input a custom array.
-4. Click "Run Algorithm 🚀" to see the visualization.
-5. View the step-by-step explanation.
-6. Reset or try a different algorithm.
-```
+- **User Input Support:**
+  - Users can input custom arrays or numbers.
+  - The system validates input data before processing.
 
-## Future Enhancements
-```plaintext
+- **Real-time Simulation:**
+  - Step-by-step breakdown of the algorithm’s execution.
+  - Reset and retry options for experimentation.
+
+## 6. Installation & Setup
+
+1. Clone or download the repository.
+2. Open `index.html` in a web browser.
+3. Ensure `style.css` and `script.js` are correctly linked.
+
+## 7. Challenges & Solutions
+
+### _Challenges Encountered:_
+
+- Ensuring smooth animations for real-time visualization.
+- Handling user input validation efficiently.
+
+### _Solutions Implemented:_
+
+- Optimized JavaScript code for performance.
+- Implemented structured validation for user inputs.
+- Used CSS animations for smooth transitions.
+
+## 8. Future Enhancements
+
 - Adding more algorithms (e.g., Graph algorithms, Dynamic Programming).
 - Improving UI/UX for better interaction.
 - Providing performance analysis for each algorithm.
-```
 
-## Conclusion
-```plaintext
-The Algorithm Simulator provides an interactive way for users to learn and understand algorithms efficiently. It was successfully developed within a week as part of our internship at Samnayastra, showcasing teamwork and technical skills in web development.
-```
+## 9. Conclusion
+
+The **Algorithm Simulator** serves as an educational tool, allowing users to interactively learn and understand algorithms. It provides an intuitive platform for visualizing step-by-step execution, making complex concepts easier to grasp. With future enhancements, this simulator can become a more comprehensive learning tool for students and developers.
 
